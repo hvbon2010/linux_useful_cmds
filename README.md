@@ -14,6 +14,9 @@ Example: `find ./out/ -name '*skgraphics*'`
 
 Example: `grep -rnw /home/hvbon/MAC/.microej/ -e "systemMicroUI"`
 
+# Get size of all folders in directory
+`du -sh *`
+
 # Excute command
 Remove all files with pattern matching in a folder:
 
