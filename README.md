@@ -94,3 +94,6 @@ Do not use the / at the end of folder when copy folder to other directory
 Ex: ~~`cp -r /Volumes/VirtualHereUniversal/VirtualHereUniversal.app/ ~/Applications`~~
 
 Must use: `cp -r /Volumes/VirtualHereUniversal/VirtualHereUniversal.app ~/Applications`
+
+## Remove all files except one
+`rm !(file_name)`
