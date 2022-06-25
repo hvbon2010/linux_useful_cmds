@@ -96,4 +96,4 @@ Ex: ~~`cp -r /Volumes/VirtualHereUniversal/VirtualHereUniversal.app/ ~/Applicati
 Must use: `cp -r /Volumes/VirtualHereUniversal/VirtualHereUniversal.app ~/Applications`
 
 ## Remove all files except one
-`rm !(file_name)`
+`rm !("file_name")`
