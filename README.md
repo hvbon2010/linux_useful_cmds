@@ -97,3 +97,6 @@ Must use: `cp -r /Volumes/VirtualHereUniversal/VirtualHereUniversal.app ~/Applic
 
 ## Remove all files except one
 `rm !("file_name")`
+
+## Get IP of a website
+`dig google.com`
