@@ -100,3 +100,6 @@ Must use: `cp -r /Volumes/VirtualHereUniversal/VirtualHereUniversal.app ~/Applic
 
 ## Get IP of a website
 `dig google.com`
+
+## Scan available IP addresses in your network
+`nmap -sn 192.168.0.0/24`
