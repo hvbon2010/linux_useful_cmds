@@ -24,6 +24,10 @@ Remove all files with pattern matching in a folder:
 
 Example: `find ./out/ -name '*skgraphics*' -exec rm -rf {} \;`
 
+Example to remove Zone Identifier files in WSL:
+
+`find -name "*Zone.*" -exec rm -rf {} \;`
+
 Change extension of a all files in a folder:
 
 `find [path] -name abc.xxx -exec rename 's/\.xxx$/.yyy/' \{} \;`
